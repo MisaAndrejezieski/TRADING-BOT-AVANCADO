@@ -1,0 +1,53 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Database
+*.db
+*.sqlite3
+
+# Logs
+logs/
+*.log
+data/logs/*
+!data/logs/.gitkeep
+
+# Configurações locais
+.env
+config_local.py
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Arquivos de dados
+data/history/*
+!data/history/.gitkeep
+data/exports/*
+
+# Modelos ML
+ml/models/*
+!ml/models/.gitkeep
+
+# Relatórios
+*.html
+*.pdf
+reports/
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# GitHub Desktop
+.DS_Store
